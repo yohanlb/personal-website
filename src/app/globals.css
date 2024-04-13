@@ -25,4 +25,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .default-h3 {
+    @apply font-medium text-base;
+  }
+  .default-subtitle {
+    @apply font-extralight text-base;
+  }
+  .default-description {
+    @apply font-extralight text-sm;
+  }
 }

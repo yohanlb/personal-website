@@ -41,15 +41,17 @@ const WorkSection = () => {
         {workData.map((job) => (
           <li key={job.company}>
             <div className='flex justify-between gap-3 '>
-              <Image
-                src={job.imgUrl}
-                width={62}
-                height={62}
-                alt={job.company + ' logo'}
-              />
+              <div className='w-16'>
+                <Image
+                  src={job.imgUrl}
+                  width={64}
+                  height={64}
+                  alt={job.company + ' logo'}
+                />
+              </div>
               <div className='grow'>
-                <h3 className='font-medium'>{job.title}</h3>
-                <span className='font-extralight'>{job.company}</span>
+                <h3 className='default-h3'>{job.title}</h3>
+                <span className='default-subtitle'>{job.company}</span>
               </div>
               <span className='font-light'>{job.years}</span>
             </div>
