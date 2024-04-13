@@ -5,12 +5,7 @@ import Link from 'next/link';
 
 export default function Work() {
   return (
-    <main>
-      <Link rel='stylesheet' href='/'>
-        <h2 className={`mb-3 text-2xl font-semibold`}>
-          Home <NewPageIcon />
-        </h2>
-      </Link>
+    <main className='pt-4'>
       <ProfileSection />
     </main>
   );
