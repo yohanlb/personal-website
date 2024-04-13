@@ -29,9 +29,12 @@ const ProjectsSection = () => {
       </h2>
       <ul className='mt-6 mb-4 flex flex-col gap-3 '>
         {projectsData.map((project) => (
-          <li key={project.title}>
-            <div className='flex justify-between gap-3 '>
-              <div className='w-16'>
+          <li
+            key={project.title}
+            className='group transition duration-100 hover:bg-white hover:bg-opacity-5 rounded-lg'
+          >
+            <div className='flex justify-between gap-3 group-hover:scale-95 duration-100'>
+              <div className='w-16 shrink-0 group-hover:scale-90 duration-100'>
                 <Image
                   src={project.imgUrl}
                   width={64}
