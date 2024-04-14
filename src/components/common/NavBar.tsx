@@ -27,12 +27,12 @@ const NavBar = (props: Props) => {
           href={link.href}
           className={`group transition ${
             currentPath === link.href
-              ? 'text-white font-medium'
-              : 'text-stone-300 font-extralight'
+              ? 'font-medium text-white'
+              : 'font-extralight text-stone-300'
           }`}
         >
           <h2 className={`text-xl group-hover:text-white`}>{link.label}</h2>
-          <span className='block max-w-0 group-hover:max-w-full transition-all duration-200 h-0.5 bg-white'></span>
+          <span className='block h-0.5 max-w-0 bg-white transition-all duration-200 group-hover:max-w-full'></span>
         </Link>
       ))}
     </nav>

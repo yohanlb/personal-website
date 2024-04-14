@@ -9,11 +9,11 @@ const WorkSection = () => {
   return (
     <section>
       <h2 className='flex items-center gap-3'>
-        <span className=' w-14 h-[2px] bg-white' />
+        <span className=' h-[2px] w-14 bg-white' />
         <span className='text-2xl'>Work</span>
       </h2>
       {/* ------ Content ----- */}
-      <ul className='mt-6 mb-4 flex flex-col gap-3'>
+      <ul className='mb-4 mt-6 flex flex-col gap-3'>
         {workData.map((job) => (
           <WorkItem key={job.company} job={job} />
         ))}

@@ -26,12 +26,12 @@ body {
     text-wrap: balance;
   }
   .default-h3 {
-    @apply font-medium text-base;
+    @apply text-base font-medium;
   }
   .default-subtitle {
-    @apply font-extralight text-base;
+    @apply text-base font-extralight;
   }
   .default-description {
-    @apply font-extralight text-sm;
+    @apply text-sm font-extralight;
   }
 }

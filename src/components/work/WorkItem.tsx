@@ -10,7 +10,7 @@ const WorkItem = ({ job }: Props) => {
   return (
     <li key={job.company} className='group relative rounded-lg'>
       {/* Hover background color effect */}
-      <div className='absolute -z-10 inset-0 -m-2 bg-white bg-opacity-10 opacity-0 group-hover:opacity-100 rounded-lg'></div>
+      <div className='absolute inset-0 -z-10 -m-2 rounded-lg bg-white bg-opacity-5 opacity-0 group-hover:opacity-100'></div>
       <div className='flex justify-between gap-3'>
         <div className='w-16 shrink-0'>
           <Image

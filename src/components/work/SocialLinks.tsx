@@ -7,7 +7,7 @@ const SocialLinks = () => {
       {socialLinksData.map((linkData) => (
         <li
           key={linkData.displayName}
-          className='underline underline-offset-4 text-stone-500 hover:text-white'
+          className='text-stone-500 underline underline-offset-4 hover:text-white'
         >
           <a href={linkData.href} target='_blank' rel='noopener noreferrer'>
             {linkData.displayName}
