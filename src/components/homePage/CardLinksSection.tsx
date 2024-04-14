@@ -3,7 +3,7 @@ import LinkCard from './LinkCard';
 
 const CardLinksSection = () => {
   return (
-    <section className='flex justify-between'>
+    <section className='flex justify-between pb-12'>
       <LinkCard
         label='Connect'
         imageSrc='/images/home/linkedin.svg'
