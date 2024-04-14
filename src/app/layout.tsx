@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import NavBar from '@components/common/NavBar';
+import { CSPostHogProvider } from '@lib/providers';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -17,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className + ' mx-auto max-w-lg px-3 sm:px-0'}>
-        <NavBar />
-        {children}
-      </body>
+      <CSPostHogProvider>
+        <body className={inter.className + ' mx-auto max-w-lg px-3 sm:px-0'}>
+          <NavBar />
+          {children}
+        </body>
+      </CSPostHogProvider>
     </html>
   );
 }
