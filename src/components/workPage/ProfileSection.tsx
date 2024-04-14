@@ -11,6 +11,7 @@ const ProfileSection = () => {
           src={'/images/ProfilPicture128.png'}
           width={128}
           height={128}
+          priority={true}
         />
         <div>
           <h1 className='text-2xl font-medium'>Yohan Le Breton</h1>

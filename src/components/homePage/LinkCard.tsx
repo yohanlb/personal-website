@@ -22,15 +22,13 @@ const CardContent = ({ label, imageSrc, className }: Props) => {
       className={`${baseCardStyle} ${className} ${boxShadowStyle} ${boxShadowStyleHover}`}
     >
       <div className='flex h-full w-full flex-col items-center justify-center gap-5 duration-100 group-hover:scale-105'>
-        <div className='w-12 sm:w-20'>
-          <Image
-            width={80}
-            height={80}
-            layout='responsive'
-            alt={label}
-            src={imageSrc}
-          />
-        </div>
+        <Image
+          width={80}
+          height={80}
+          alt={label}
+          src={imageSrc}
+          className='h-auto w-12 sm:w-20'
+        />
         <h3 className='text-lg font-light'>{label}</h3>
       </div>
     </div>

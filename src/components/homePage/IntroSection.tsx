@@ -11,6 +11,7 @@ const IntroSection = () => {
           src={'/images/ProfilPicture256.png'}
           width={156}
           height={156}
+          priority={true}
           className='m-auto'
         />
       </div>
