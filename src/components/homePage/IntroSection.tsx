@@ -17,13 +17,14 @@ const IntroSection = () => {
       <div className='mt-8 flex flex-col gap-4'>
         <h2 className='text-xl'>Hey, I’m Yohan 👋🏼</h2>
         <p className='font-extralight'>
-          I am a Software Engineer and Creative Technologist who loves creating
-          beautiful, highly interactive web apps.
+          I am a <strong>Software Engineer</strong> and{' '}
+          <strong>Creative Technologist</strong> who loves creating beautiful
+          highly interactive web apps.
         </p>
         <p className='font-extralight'>
-          Previously front-end engineer at @frichti and @gorillas. I am
-          currently focusing on some fun side projects (To be released soon!
-          🚀🎉).
+          Previously front-end engineer at <strong>@frichti</strong> and{' '}
+          <strong>@gorillas</strong>. I am currently focusing on some fun side
+          projects (To be released soon! 🚀🎉).
         </p>
         <p className='font-extralight'>
           I am also a passionate Photographer and Videographer on my spare time
