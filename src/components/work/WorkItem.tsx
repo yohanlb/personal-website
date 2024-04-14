@@ -1,0 +1,33 @@
+import React from 'react';
+import Image from 'next/image';
+import { JobData } from '@lib/jobsData';
+
+type Props = {
+  job: JobData;
+};
+
+const WorkItem = ({ job }: Props) => {
+  return (
+    <li key={job.company} className='group relative rounded-lg'>
+      {/* Hover background color effect */}
+      <div className='absolute -z-10 inset-0 -m-2 bg-white bg-opacity-10 opacity-0 group-hover:opacity-100 rounded-lg'></div>
+      <div className='flex justify-between gap-3'>
+        <div className='w-16 shrink-0'>
+          <Image
+            src={job.imgUrl}
+            width={64}
+            height={64}
+            alt={job.company + ' logo'}
+          />
+        </div>
+        <div className='grow'>
+          <h3 className='default-h3'>{job.title}</h3>
+          <span className='default-subtitle'>{job.company}</span>
+        </div>
+        <span className='font-light'>{job.years}</span>
+      </div>
+    </li>
+  );
+};
+
+export default WorkItem;

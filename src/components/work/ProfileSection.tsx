@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import SocialLinks from '../socialLinks/SocialLinks';
+import SocialLinks from './SocialLinks';
 
 const ProfileSection = () => {
   return (

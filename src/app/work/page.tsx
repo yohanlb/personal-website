@@ -1,7 +1,7 @@
 import NewPageIcon from '@components/ui/NewPageIcon';
-import ProfileSection from '@components/work/profileSection/ProfileSection';
-import ProjectsSection from '@components/work/projectsSection/ProjectsSection';
-import WorkSection from '@components/work/workSection/WorkSection';
+import ProfileSection from '@components/work/ProfileSection';
+import ProjectsSection from '@components/work/ProjectsSection';
+import WorkSection from '@components/work/WorkSection';
 import Image from 'next/image';
 import Link from 'next/link';
 
