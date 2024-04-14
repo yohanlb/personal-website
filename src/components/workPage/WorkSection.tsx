@@ -3,7 +3,7 @@ import { workData } from '@lib/jobsData';
 import { socialLinksData } from '@lib/socialLinkData';
 import Image from 'next/image';
 import React from 'react';
-import WorkItem from '@components/work/WorkItem';
+import WorkItem from '@components/workPage/WorkItem';
 
 const WorkSection = () => {
   return (
