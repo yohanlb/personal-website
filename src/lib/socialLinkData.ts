@@ -11,4 +11,8 @@ export const socialLinksData = [
     displayName: 'Twitter',
     href: 'https://twitter.com/yohlb',
   },
+  {
+    displayName: 'Behance',
+    href: 'https://www.behance.net/yohlb',
+  },
 ];
