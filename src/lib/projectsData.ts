@@ -18,7 +18,6 @@ export const projectsData: ProjectData[] = [
     title: 'Santos de Cartier Event',
     description:
       "Interactive installation for Cartier's 100th anniversary in Shanghai.",
-    description2: 'In collaboration with: Cartier, K2 Agency, AC3 Studio.',
     link: 'https://ac3-studio.com/works/cartier-santos',
     imgUrl: '/images/work/cartier.png',
   },
