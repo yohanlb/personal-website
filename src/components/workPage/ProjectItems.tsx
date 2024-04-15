@@ -21,7 +21,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
           />
         </div>
         <div className='grow'>
-          <h3 className='default-h3'>
+          <h3 className='default-h3 -mt-[4px]'>
             <a
               href={project.link}
               target='_blank'

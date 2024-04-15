@@ -20,7 +20,7 @@ const WorkItem = ({ job }: Props) => {
             alt={job.company + ' logo'}
           />
         </div>
-        <div className='grow'>
+        <div className='-mt-[4px] grow'>
           <h3 className='default-h3'>{job.title}</h3>
           <span className='default-subtitle'>{job.company}</span>
         </div>
