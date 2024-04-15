@@ -12,7 +12,7 @@ export const projectsData: ProjectData[] = [
     description: 'Full Stack geography trivia/quiz app.',
     description2: 'React / Typescript / Tailwind / NodeJS / Supabase',
     link: 'https://geoquiz.co',
-    imgUrl: '/images/GeoQuizLogo.png',
+    imgUrl: '/images/work/GeoQuizLogo.png',
   },
   {
     title: 'Santos de Cartier Event',
@@ -20,7 +20,7 @@ export const projectsData: ProjectData[] = [
       "Interactive installation for Cartier's 100th anniversary in Shanghai.",
     description2: 'In collaboration with: Cartier, K2 Agency, AC3 Studio.',
     link: 'https://ac3-studio.com/works/cartier-santos',
-    imgUrl: '/images/cartier.png',
+    imgUrl: '/images/work/cartier.png',
   },
   {
     title: 'Never Stop Drinkin’ - Critical Pint',
