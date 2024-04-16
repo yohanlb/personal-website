@@ -7,12 +7,12 @@
   --background-rgb: 17, 17, 17;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 0, 0, 0;
     --background-rgb: 214, 219, 220;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
