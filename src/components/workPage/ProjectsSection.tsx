@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       <div className='flex items-center gap-1 text-sm font-extralight text-stone-400'>
         <span className=''>More on </span>
         <a
-          href='https://www.behance.net/yohlb'
+          href='https://www.behance.net/yohanlb'
           target='_blank'
           rel='noopener noreferrer'
           className='underline underline-offset-4 hover:text-stone-200'
