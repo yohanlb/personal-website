@@ -9,7 +9,7 @@ export const socialLinksData = [
   },
   {
     displayName: 'Twitter',
-    href: 'https://twitter.com/yohlb',
+    href: 'https://twitter.com/yohanlb_',
   },
   {
     displayName: 'Behance',
