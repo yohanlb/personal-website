@@ -13,6 +13,6 @@ export const socialLinksData = [
   },
   {
     displayName: 'Behance',
-    href: 'https://www.behance.net/yohlb',
+    href: 'https://www.behance.net/yohanlb',
   },
 ];
