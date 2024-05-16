@@ -22,11 +22,14 @@ export default function RootLayout({
       <CSPostHogProvider>
         <body
           className={
-            inter.className + ' mx-auto max-w-lg px-3 pb-8 antialiased sm:px-0'
+            inter.className +
+            ' w-dvw overflow-x-hidden px-3 pb-8 antialiased sm:px-0'
           }
         >
-          <NavBar />
-          {children}
+          <div className='mx-auto max-w-lg'>
+            <NavBar />
+            {children}
+          </div>
         </body>
       </CSPostHogProvider>
     </html>
