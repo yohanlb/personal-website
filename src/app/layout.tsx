@@ -23,7 +23,7 @@ export default function RootLayout({
         <body
           className={
             inter.className +
-            ' w-dvw overflow-x-hidden px-3 pb-8 antialiased sm:px-0'
+            ' w-[calc(100vw-20px)] overflow-x-hidden px-3 pb-8 antialiased sm:px-0'
           }
         >
           <div className='mx-auto max-w-lg'>
