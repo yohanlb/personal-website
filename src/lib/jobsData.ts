@@ -28,6 +28,6 @@ export const workData: JobData[] = [
     title: 'Creative Technologist',
     company: 'AC3 Studio / VR-Studio',
     years: '2017-2021',
-    imgUrl: '/images/work/ac3.jpeg',
+    imgUrl: '/images/work/ac3.png',
   },
 ];
