@@ -1,15 +1,14 @@
-import CardLinksSection from '@components/homePage/CardLinksSection';
 import IntroSection from '@components/homePage/IntroSection';
-import NewPageIcon from '@components/ui/NewPageIcon';
-import Image from 'next/image';
-import Link from 'next/link';
+import ProjectsSection from '@components/workPage/ProjectsSection';
+import WorkSection from '@components/workPage/WorkSection';
 
-export default function Home() {
+export default function Work() {
   return (
-    <main className='pt-4'>
-      <div className='flex flex-col gap-14'>
+    <main className='pt-10'>
+      <div className='flex flex-col gap-12'>
         <IntroSection />
-        <CardLinksSection />
+        <WorkSection />
+        <ProjectsSection />
       </div>
     </main>
   );

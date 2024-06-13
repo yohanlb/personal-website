@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import NavBar from '@components/common/NavBar';
 import { CSPostHogProvider } from '@lib/providers';
 import './globals.css';
 
@@ -27,7 +26,7 @@ export default function RootLayout({
           }
         >
           <div className='mx-auto max-w-lg'>
-            <NavBar />
+            {/* <NavBar /> */}
             {children}
           </div>
         </body>

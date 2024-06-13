@@ -32,6 +32,9 @@ const IntroSection = () => {
           📸.
         </p>
       </div>
+      <div className='mt-4'>
+        <SocialLinks />
+      </div>
     </section>
   );
 };
