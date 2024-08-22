@@ -8,10 +8,10 @@ export type ProjectData = {
 
 export const projectsData: ProjectData[] = [
   {
-    title: 'Geo Quiz (Work in Progress)',
+    title: 'GeoQuiz',
     description: 'Full Stack geography trivia/quiz app.',
-    description2: 'React / Typescript / Tailwind / NodeJS / Supabase',
-    link: 'https://geoquiz.co',
+    description2: 'React / NextJs / Typescript / Tailwind / NodeJS / Supabase',
+    link: 'https://geoquiz.co/home',
     imgUrl: '/images/work/GeoQuizLogo.png',
   },
   {
