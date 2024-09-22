@@ -23,7 +23,7 @@ const IntroSection = () => {
           highly interactive web apps.
         </p>
         <p className='font-extralight'>
-          Previously front-end engineer at <strong>@frichti</strong> and{' '}
+          Previously working at <strong>@frichti</strong> and{' '}
           <strong>@gorillas</strong>. I am currently focusing on some fun side
           projects (To be released soon! 🚀🎉).
         </p>
