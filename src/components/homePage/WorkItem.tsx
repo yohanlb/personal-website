@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { JobData } from '@lib/jobsData';
+import { JobData } from '../../datas/jobsData';
 
 type Props = {
   job: JobData;

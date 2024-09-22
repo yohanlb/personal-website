@@ -1,6 +1,6 @@
 import NewPageIcon from '@components/ui/NewPageIcon';
-import { projectsData } from '@lib/projectsData';
-import { socialLinksData } from '@lib/socialLinkData';
+import { projectsData } from '../../datas/projectsData';
+import { socialLinksData } from '../../datas/socialLinkData';
 import Image from 'next/image';
 import React from 'react';
 import ProjectItem from './ProjectItems';

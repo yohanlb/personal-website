@@ -25,7 +25,7 @@ export default function RootLayout({
             ' w-[calc(100vw-20px)] overflow-x-hidden px-3 pb-8 antialiased sm:px-0'
           }
         >
-          <div className='mx-auto max-w-lg'>
+          <div className='mx-auto max-w-xl'>
             {/* <NavBar /> */}
             {children}
           </div>

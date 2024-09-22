@@ -1,4 +1,4 @@
-import SocialLinks from '@components/workPage/SocialLinks';
+import SocialLinks from '@components/homePage/SocialLinks';
 import Image from 'next/image';
 import React from 'react';
 

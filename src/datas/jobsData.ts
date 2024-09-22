@@ -7,16 +7,16 @@ export type JobData = {
 
 export const workData: JobData[] = [
   {
-    title: 'Frontend Engineer',
+    title: 'Web Engineer',
+    company: 'Frichti',
+    years: '2021-2024',
+    imgUrl: '/images/work/frichti.jpeg',
+  },
+  {
+    title: 'Web Engineer',
     company: 'Gorillas',
     years: '2022-2023',
     imgUrl: '/images/work/gorillas.jpeg',
-  },
-  {
-    title: 'Frontend Engineer',
-    company: 'Frichti',
-    years: '2021-2023',
-    imgUrl: '/images/work/frichti.jpeg',
   },
   {
     title: 'Full Stack Engineer',
@@ -25,7 +25,7 @@ export const workData: JobData[] = [
     imgUrl: '/images/work/novelab.jpeg',
   },
   {
-    title: 'Creative Technologist',
+    title: 'Full Stack Engineer / Creative Technologist',
     company: 'AC3 Studio / VR-Studio',
     years: '2017-2021',
     imgUrl: '/images/work/ac3.png',

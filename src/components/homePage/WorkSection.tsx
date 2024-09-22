@@ -1,9 +1,9 @@
 import NewPageIcon from '@components/ui/NewPageIcon';
-import { workData } from '@lib/jobsData';
-import { socialLinksData } from '@lib/socialLinkData';
+import { workData } from '../../datas/jobsData';
+import { socialLinksData } from '../../datas/socialLinkData';
 import Image from 'next/image';
 import React from 'react';
-import WorkItem from '@components/workPage/WorkItem';
+import WorkItem from '@components/homePage/WorkItem';
 
 const WorkSection = () => {
   return (

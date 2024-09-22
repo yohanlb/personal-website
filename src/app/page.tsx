@@ -1,6 +1,6 @@
 import IntroSection from '@components/homePage/IntroSection';
-import ProjectsSection from '@components/workPage/ProjectsSection';
-import WorkSection from '@components/workPage/WorkSection';
+import ProjectsSection from '@components/homePage/ProjectsSection';
+import WorkSection from '@components/homePage/WorkSection';
 
 export default function Work() {
   return (

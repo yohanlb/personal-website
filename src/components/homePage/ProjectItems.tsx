@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { ProjectData } from '@lib/projectsData';
+import { ProjectData } from '../../datas/projectsData';
 
 interface ProjectItemProps {
   project: ProjectData;
