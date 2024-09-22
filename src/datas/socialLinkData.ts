@@ -1,4 +1,8 @@
 export const SOCIAL_LINKS = {
+  Blog: {
+    displayName: 'Blog',
+    href: 'https://yohanlb.hashnode.dev/',
+  },
   LinkedIn: {
     displayName: 'LinkedIn',
     href: 'https://www.linkedin.com/in/yohanlb/',
