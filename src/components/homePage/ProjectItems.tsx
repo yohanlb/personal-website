@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { ProjectData } from '../../datas/projectsData';
+import ExternalLinkIcon from '@components/ui/ExternalLinkIcon';
 
 interface ProjectItemProps {
   project: ProjectData;
@@ -28,7 +29,10 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ project }) => {
               className='underline-offset-2 group-hover:underline'
             >
               {project.title}
-            </a>
+            </a>{' '}
+            <span className='text-stone-400 '>
+              <ExternalLinkIcon />
+            </span>
           </h3>
           <p className='default-description'>{project.description}</p>
           {project.description2 && (

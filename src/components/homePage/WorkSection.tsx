@@ -29,7 +29,7 @@ const WorkSection = () => {
           <span className='underline underline-offset-4'>
             {SOCIAL_LINKS.LinkedIn.displayName}
           </span>{' '}
-          <ExternalLinkIcon className='text-stone-400 group-hover:text-stone-200' />
+          <ExternalLinkIcon />
         </a>
       </div>
     </section>
