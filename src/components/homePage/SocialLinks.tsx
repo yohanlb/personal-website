@@ -1,7 +1,9 @@
 import React from 'react';
-import { socialLinksData } from '../../datas/socialLinkData';
+import { getSocialLinksArray } from '../../datas/socialLinkData';
 
 const SocialLinks = () => {
+  const socialLinksData = getSocialLinksArray();
+
   return (
     <ul className='flex gap-4'>
       {socialLinksData.map((linkData) => (

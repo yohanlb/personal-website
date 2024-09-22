@@ -1,9 +1,8 @@
-import NewPageIcon from '@components/ui/NewPageIcon';
-import { workData } from '../../datas/jobsData';
-import { socialLinksData } from '../../datas/socialLinkData';
-import Image from 'next/image';
 import React from 'react';
+import { workData } from '../../datas/jobsData';
 import WorkItem from '@components/homePage/WorkItem';
+import ExternalLinkIcon from '@components/ui/ExternalLinkIcon';
+import { SOCIAL_LINKS } from '../../datas/socialLinkData';
 
 const WorkSection = () => {
   return (
@@ -22,12 +21,15 @@ const WorkSection = () => {
       <div className='flex items-center gap-1 text-sm font-extralight text-stone-400'>
         <span className=''>More on </span>
         <a
-          href='https://www.linkedin.com/in/yohanlb/'
+          href={SOCIAL_LINKS.LinkedIn.href}
           target='_blank'
           rel='noopener noreferrer'
-          className='underline underline-offset-4 hover:text-stone-200'
+          className='group hover:text-stone-200'
         >
-          LinkedIn
+          <span className='underline underline-offset-4'>
+            {SOCIAL_LINKS.LinkedIn.displayName}
+          </span>{' '}
+          <ExternalLinkIcon className='text-stone-400 group-hover:text-stone-200' />
         </a>
       </div>
     </section>
