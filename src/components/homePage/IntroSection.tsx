@@ -5,15 +5,16 @@ import React from 'react';
 const IntroSection = () => {
   return (
     <section>
-      <div className='w-full'>
-        <Image
-          alt='Profil Picture'
-          src={'/images/ProfilPicture256.png'}
-          width={156}
-          height={156}
-          priority={true}
-          className='m-auto'
-        />
+      <div className='flex h-44 items-center justify-center'>
+        <div className='outline-green-0 h-fit overflow-hidden rounded-full p-1 outline outline-2 transition-all duration-300 hover:p-2 hover:outline-4 hover:outline-green-400 '>
+          <Image
+            alt='Profil Picture'
+            src={'/images/ProfilPicture256.png'}
+            width={156}
+            height={156}
+            priority={true}
+          />
+        </div>
       </div>
       <div className='mt-8 flex flex-col gap-4'>
         <h2 className='text-xl'>Hey, I’m Yohan 👋🏼</h2>
