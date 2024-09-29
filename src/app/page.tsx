@@ -1,3 +1,5 @@
+import BlogSection from '@components/homePage/BlogSection';
+import EventsSection from '@components/homePage/EventsSection';
 import IntroSection from '@components/homePage/IntroSection';
 import ProjectsSection from '@components/homePage/ProjectsSection';
 import WorkSection from '@components/homePage/WorkSection';
@@ -9,6 +11,8 @@ export default function Work() {
         <IntroSection />
         <WorkSection />
         <ProjectsSection />
+        <BlogSection />
+        <EventsSection />
       </div>
     </main>
   );
