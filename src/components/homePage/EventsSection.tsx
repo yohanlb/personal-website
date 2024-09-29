@@ -9,7 +9,7 @@ const EventsSection = () => {
         <span className='h-[2px] w-14 bg-white' />
         <span className='text-2xl'>Events</span>
       </h2>
-      <p className='mt-2 text-base font-light text-gray-300'>
+      <p className='mt-1 text-base font-light text-gray-500'>
         The next <strong>conferences</strong> and <strong>events</strong> you
         can find me at:
       </p>

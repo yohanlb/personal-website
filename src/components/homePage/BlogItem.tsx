@@ -13,7 +13,11 @@ const BlogItem = ({ blog }: Props) => {
       <div className='absolute inset-0 -z-10 -m-2 rounded-lg bg-white bg-opacity-5 opacity-0 group-hover:opacity-100'></div>
       <div>
         <h3 className='text-base text-white'>
-          <a href='/' className='underline-offset-2 group-hover:underline'>
+          <a
+            href={blog.link}
+            target='_blank'
+            className='underline-offset-2 group-hover:underline'
+          >
             {blog.title}
           </a>{' '}
           <span className='text-stone-400 '>
