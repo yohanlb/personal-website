@@ -21,7 +21,7 @@ export const workData: JobData[] = [
   {
     title: 'Full Stack Engineer',
     company: 'Novelab',
-    years: '2021',
+    years: '2020-2021',
     imgUrl: '/images/work/novelab.jpeg',
   },
   {
