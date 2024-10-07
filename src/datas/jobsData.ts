@@ -27,7 +27,7 @@ export const workData: JobData[] = [
   {
     title: 'Full Stack Engineer / Creative Technologist',
     company: 'AC3 Studio / VR-Studio',
-    years: '2017-2021',
+    years: '2017-2020',
     imgUrl: '/images/work/ac3.png',
   },
 ];
