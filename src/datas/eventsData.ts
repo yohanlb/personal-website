@@ -22,7 +22,7 @@ export const EVENT_DATA: EventData[] = [
     title: 'React Advanced - London',
     date: '25/10/24',
     link: 'https://reactadvanced.com/',
-    isPast: false,
+    isPast: true,
   },
   {
     title: 'React Summit - New York',
