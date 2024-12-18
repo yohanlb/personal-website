@@ -15,6 +15,10 @@ export const SOCIAL_LINKS = {
     displayName: 'Twitter',
     href: 'https://twitter.com/yohlb',
   },
+  Bluesky: {
+    displayName: 'Bluesky',
+    href: 'https://bsky.app/profile/yohlb.bsky.social',
+  },
   Behance: {
     displayName: 'Behance',
     href: 'https://www.behance.net/yohanlb',
