@@ -28,6 +28,6 @@ export const EVENT_DATA: EventData[] = [
     title: 'React Summit - New York',
     date: '19/11/24',
     link: 'https://reactsummit.us/',
-    isPast: false,
+    isPast: true,
   },
 ];
