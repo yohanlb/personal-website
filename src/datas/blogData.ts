@@ -7,11 +7,11 @@ export type BlogData = {
 
 export const blogData: BlogData[] = [
   {
-    title: 'When should I Use Server Action (Next.js 14)',
+    title: 'When should I Use Server Action (Next.js 15)',
     subtitle:
       'Exploring the Right Use Cases and the main pitfalls for Server Actions in Your React and Next.js Apps',
     tags: ['React', 'Next.js', 'Server Actions', 'API'],
-    link: 'https://yohanlb.hashnode.dev/when-should-i-use-server-action-nextjs-14',
+    link: 'https://yohanlb.hashnode.dev/when-should-i-use-server-action-nextjs',
   },
   {
     title: 'The API Client I Didn’t Know I Needed: Bruno',
